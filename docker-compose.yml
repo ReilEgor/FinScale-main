@@ -1,0 +1,12 @@
+name: finScale-main
+
+include:
+
+services:
+  hello:
+    image: alpine
+    command: echo "FinScale is coming soon..."
+
+networks:
+  app-network:
+    driver: bridge
